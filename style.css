@@ -1,0 +1,26 @@
+/* CSS for the slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* CSS for the slideshow images */
+.mySlides {
+  display: none;
+}
+
+/* CSS for the slideshow navigation dots */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.active {
+  background-color: #717171;
+}
